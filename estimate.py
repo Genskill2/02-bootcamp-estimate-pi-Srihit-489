@@ -19,6 +19,7 @@ def monte_carlo(n):
             circle_pointes  = circle_pointes + 1
         else:
             square_points = square_points + 1
+        n = n - 1    
     ratio = circle_pointes/(circle_pointes + square_points)
     return 4*ratio
 
